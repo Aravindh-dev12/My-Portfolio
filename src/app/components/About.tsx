@@ -197,7 +197,7 @@ export const About = () => {
                                 transition={{ type: 'spring', stiffness: 400 }}
                             >
                                 <Avatar
-                                    src="/images/myPic.jpg"  // Updated image path
+                                    src="/images/photo.JPG"  // Updated image path
                                     alt="Profile Picture"
                                     sx={{
                                         width: { xs: 250, md: 350 },
