@@ -188,7 +188,7 @@ export const Skills = () => {
                 fontSize: { xs: '1rem', md: '1.25rem' }
               }}
             >
-              Technologies Ive mastered and tools I use to create exceptional digital experiences
+              Technologies I've mastered and tools I use to create exceptional digital experiences
             </Typography>
           </motion.div>
         </Box>
@@ -375,7 +375,7 @@ export const Skills = () => {
               color: theme.palette.text.primary
             }}
           >
-            Technologies Ive Worked With
+            Technologies I've Worked With
           </Typography>
 
           <motion.div
