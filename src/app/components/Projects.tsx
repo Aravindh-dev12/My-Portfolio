@@ -20,26 +20,25 @@ const projectsData = [
       live: "https://watermeter.dev.perspectiv.in/Login"
     },  
     {
-      id: 2,
-      title: "Brahmastra-23 College Symposium Website",
-      description: "A dynamic and responsive website for managing college symposium events, including event listings, registrations, guest details, and live updates.",
-      tags: ["Next.js", "Tailwind CSS", "Firebase", "Framer Motion"],
-      image: "/images/brahmastra.png",
-      github: "https://github.com/thearavindh/Brahmastra",
-      live: "https://chettinadtech.ac.in/brahmastra23/"
-    },  
-    {
+  id: 2,
+  title: "Voice Enabled Chat with PDFs",
+  description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
+  tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
+  image: "/images/voice.png", // Replace with your actual screenshot/image path
+  github: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System", 
+  live: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
+},
+     {
       id: 3,
-      title: "Depression Detection using Machine Learning",
-      description:
-        "The Depression Detection using Machine Learning project harnesses algorithms and data to identify depression signs early. Leveraging Python libraries like Scikit-learn, TensorFlow, and Pandas, it aims to develop accurate models for timely intervention and support in mental health.",
-      tags: ["Python", "Scikit-learn", "TensorFlow", "Pandas"],
+      title: "Blupilot Interview Copilot",
+      description: "A web app built with React Native and Node.js to help users prepare for job interviews through interactive mock sessions and personalized feedback. Integrated OpenAI API to simulate realistic, role-specific interview conversations across various industries, creating a dynamic and adaptive practice environment.",
+      tags: ["React Native", "Node.js", "Express.js", "MongoDB", "REST API", "OpenAI"],
       image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
-      github: "https://github.com/thearavindh/Depression-Detection-Using-ML",
-      live: "#"
-    },
+      github: "https://github.com/thearavindh/Bluepilot-Interview-Copilot",
+      live: "https://github.com/thearavindh/Bluepilot-Interview-Copilot"
+    },    
     {
-      id: 4,
+      id: 5,
       title: "Task Management App",
       description: "A full-stack To Do List application featuring a Node.js backend and a TypeScript-based frontend",
       tags: ["Node.js", "TypeScript", "Express", "HTML", "CSS"],
