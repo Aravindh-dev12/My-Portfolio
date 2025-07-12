@@ -34,16 +34,16 @@ export const Experience = () => {
       type: "Full-time"
     },
     {
-      id: 2,
-      role: "Full Stack Developer Intern",
-      company: "Soft Apper",
-      period: "2024 Feb - 2024 May",
-      description: "Worked as a Full‑Stack Development Intern, designing and building core features for a web‑based collaboration platform. Developed real‑time collaboration tools (front‑end in React/Angular, back‑end in Node.js/Express, WebSocket integration and database schemas) to support millions of daily users",
-      icon: <SiGoogle size={24} />,
-      color: "#7FBA00",
-      skills: ["React", "TypeScript", "Node.js"],
-      type: "Full-time"
-    },
+  id: 2,
+  role: "Full Stack Developer Freelancer",
+  company: "Day One",
+  period: "2024 Feb - 2024 May",
+  description: "Developed a Conversational AI Avatar Bot for restaurant ordering via QR code. Built a voice-driven, browser-based assistant using NLP and speech synthesis. Focused on creating a human-like chatbot interface using advanced NLP techniques and real-time speech synthesis.",
+  icon: <SiGoogle size={24} />, // You can replace this with a more relevant icon, e.g., <SiOpenai /> or a custom one
+  color: "#7FBA00",
+  skills: ["JavaScript", "TypeScript", "Python", "NLP", "Speech Synthesis", "AI", "React"],
+  type: "Freelance"
+},
   ];
 
   const experienceTypes = [
