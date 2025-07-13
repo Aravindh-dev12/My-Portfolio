@@ -85,8 +85,8 @@ export const Hero = () => {
         
         // In a real app, you would trigger the actual download here
         const link = document.createElement('a');
-        link.href = '/Aravindh_Resume.pdf';
-        link.download = 'Aravindh_Resume.pdf';
+        link.href = '/resume.pdf';
+        link.download = 'resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

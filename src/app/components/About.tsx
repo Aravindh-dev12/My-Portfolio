@@ -461,6 +461,7 @@ export const About = () => {
 Specializing in frontend, backend, and database development, I craft end‑to‑end solutions that are both robust and user‑friendly. On the frontend, I leverage <strong>Vue.js, AngularJS, Tailwind CSS, HTML, and CSS</strong> to build responsive, intuitive interfaces. Behind the scenes, I rely on <strong>TypeScript and Python</strong> to implement scalable, clean-code backends. For data persistence, I utilize <strong>PostgreSQL and MongoDB</strong> to design and optimize schemas that ensure reliability and performance.
 
 Additionally, I have experience developing AI-powered applications, including training custom <strong>LLM models</strong> and integrating <strong>third-party AI services</strong> to deliver intelligent features. With a keen eye for detail and a commitment to maintainable code, I transform complex requirements into elegant, delightful applications.
+</motion.span>
 
                             </Typography>
                         </motion.div>
