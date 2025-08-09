@@ -20,14 +20,14 @@ const projectsData = [
       live: "https://watermeter.dev.perspectiv.in/Login"
     },  
     {
-  id: 2,
-  title: "Voice Enabled Chat with PDFs",
-  description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
-  tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
-  image: "/images/voice.png", // Replace with your actual screenshot/image path
-  github: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System", 
-  live: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
-},
+      id: 2,
+      title: "Voice Enabled Chat with PDFs",
+      description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
+      tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
+      image: "/images/voice.png", // Replace with your actual screenshot/image path
+      github: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System", 
+      live: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
+    },
      {
       id: 3,
       title: "Blupilot Interview Copilot",
@@ -37,6 +37,16 @@ const projectsData = [
       github: "https://github.com/thearavindh/Bluepilot-Interview-Copilot",
       live: "https://github.com/thearavindh/Bluepilot-Interview-Copilot"
     },    
+    {
+      id: 4,
+      title: "Brain Tumor Detection",
+      description: "Developed CNN model to detect brain tumor using Kaggle MRI dataset with 4,600 images, Leveraged transfer learning & fine-tuned pre-trained MobileNet, achieving an accuracy of 93.72% on test dataset Used Gradio to deploy the ML model, which can accurately classify MRI images in real-time efficiently",
+      tags: [ "CNN" , "numpy" , "Pillow" , "gradio"],
+      image: "/images/tumor.png",
+      github: "https://github.com/thearavindh/Brain-Tumor-Deetcion",
+      live: "https://huggingface.co/spaces/the11/Brain_Tumor_Detection"
+    },
+    
     {
       id: 5,
       title: "Task Management App",
