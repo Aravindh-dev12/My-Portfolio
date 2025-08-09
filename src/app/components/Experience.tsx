@@ -22,8 +22,20 @@ export const Experience = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.98]);
 
   const experienceData = [
-    {
+
+ {
       id: 1,
+      role: "AI Developer",
+      company: "Freelancer",
+      period: "2024 Feb - 2024 May",
+      description: "I design, develop, and deploy artificial intelligence and machine learning solutions tailored to client needs. My work involves building models for data analysis, natural language processing, computer vision, and predictive analytics using frameworks such as TensorFlow, PyTorch, and Scikit-learn. I collaborate closely with clients to understand project goals, create scalable AI pipelines, and deliver actionable insights that drive business decisions.",
+      icon: <SiGoogle size={24} />, // You can replace this with a more relevant icon, e.g., <SiOpenai /> or a custom one
+      color: "#7FBA00",
+      skills: ["Artificial intelligence", "Python", "NLP", "Machine Learning"],
+      type: "Freelance"
+    },
+    {
+      id: 2,
       role: "Software Development Engineer",
       company: "Perspectiv Labs",
       period: "2024 July - Present",
@@ -34,16 +46,16 @@ export const Experience = () => {
       type: "Full-time"
     },
     {
-  id: 2,
-  role: "Full Stack Developer Freelancer",
-  company: "Day One",
-  period: "2024 Feb - 2024 May",
-  description: "Developed a Conversational AI Avatar Bot for restaurant ordering via QR code. Built a voice-driven, browser-based assistant using NLP and speech synthesis. Focused on creating a human-like chatbot interface using advanced NLP techniques and real-time speech synthesis.",
-  icon: <SiGoogle size={24} />, // You can replace this with a more relevant icon, e.g., <SiOpenai /> or a custom one
-  color: "#7FBA00",
-  skills: ["JavaScript", "TypeScript", "Python", "NLP", "Speech Synthesis", "AI", "React"],
-  type: "Freelance"
-},
+      id: 3,
+      role: "Full Stack Developer",
+      company: "Softapper Technologies",
+      period: "2024 Feb - 2024 May",
+      description: "Throughout my Internship at Softapper, I dedicated my efforts to developing pages using React.js and Node.js. Actively contributing to projects significantly enriched my experience, refining my proficiency in both frontend and backend skills.",
+      icon: <SiGoogle size={24} />, // You can replace this with a more relevant icon, e.g., <SiOpenai /> or a custom one
+      color: "#7FBA00",
+      skills: ["JavaScript", "TypeScript", "React JS" , "HTML" , "CSS"],
+      type: "Intern"
+    },
   ];
 
   const experienceTypes = [
