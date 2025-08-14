@@ -39,6 +39,16 @@ const projectsData = [
     },    
     {
       id: 4,
+      title: "AI Recruiter — Resume & Interview Analyzer",
+      description: "An AI-powered assistant that streamlines hiring: uploads resumes and job descriptions to produce compatibility scores, detects AI-generated content, generates targeted interview questions, analyzes interview transcripts for coverage, and gives detailed per-question candidate response evaluations. Built with FastAPI backend, Streamlit frontend, and Google Gemini for LLM-powered analysis.",
+      tags: ["Python", "FastAPI", "Streamlit", "NLP", "AI", "Gemini API"],
+      image: "/images/HR.png",
+      github: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini/tree/main",
+      live: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini" // replace with deployed URL when available
+    },
+
+    {
+      id: 5,
       title: "Brain Tumor Detection",
       description: "Developed CNN model to detect brain tumor using Kaggle MRI dataset with 4,600 images, Leveraged transfer learning & fine-tuned pre-trained MobileNet, achieving an accuracy of 93.72% on test dataset Used Gradio to deploy the ML model, which can accurately classify MRI images in real-time efficiently",
       tags: [ "CNN" , "numpy" , "Pillow" , "gradio"],
@@ -48,7 +58,7 @@ const projectsData = [
     },
     
     {
-      id: 5,
+      id: 6,
       title: "Task Management App",
       description: "A full-stack To Do List application featuring a Node.js backend and a TypeScript-based frontend",
       tags: ["Node.js", "TypeScript", "Express", "HTML", "CSS"],
@@ -489,3 +499,4 @@ export const Projects = () => {
     </Box>
   );
 };
+
