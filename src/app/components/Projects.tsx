@@ -11,28 +11,28 @@ import ReactPlayer from 'react-player';
 const projectsData = [
 
     {
-      id: 1,
-      title: "Water Meter App",
-      description: "A cross-platform application using Expo and React for real-time water usage tracking, leak alerts, and analytics, backed by a PostgreSQL and Node.js backend.",
-      tags: ["React Native", "Expo", "React", "TypeScript", "Node.js", "PostgreSQL"],
-      image: "/images/watermeter.png",
-      github: "https://github.com/perspectivLabs/WaterMeter_App/",
-      live: "https://watermeter.dev.perspectiv.in/Login"
-    },  
+      "id": 1,
+      "title": "Blu — Local 7B Multilingual Multimodal Assistant",
+      "description": "Blu is a fully local, multilingual, multimodal assistant running quantized models via Ollama, capable of text, vision, speech recognition (ASR), and text-to-speech (TTS). It supports RAG over PDFs/TXT, runs on CPU or small GPU, and can be extended with fine-tuned adapters. Ideal for lightweight, private AI applications on limited hardware.",
+      "tags": ["Python", "LLM", "Multimodal AI", "Ollama", "NLP", "Vision", "ASR", "TTS"],
+      "image": "/images/llm.jpeg",
+      "github": "https://github.com/thearavindh/Blu--Multimodal-llm.git",
+      "live": "https://github.com/thearavindh/Blu--Multimodal-llm.git"
+    },
     {
       id: 2,
       title: "Voice Enabled Chat with PDFs",
       description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
       tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
-      image: "/images/voice.png", // Replace with your actual screenshot/image path
+      image: "/images/voice.png", 
       github: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System", 
       live: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
     },
      {
       id: 3,
       title: "Blupilot Interview Copilot",
-      description: "A web app built with React Native and Node.js to help users prepare for job interviews through interactive mock sessions and personalized feedback. Integrated OpenAI API to simulate realistic, role-specific interview conversations across various industries, creating a dynamic and adaptive practice environment.",
-      tags: ["React Native", "Node.js", "Express.js", "MongoDB", "REST API", "OpenAI"],
+      description: "A web app built with React Native and Python to help users prepare for job interviews through interactive mock sessions and personalized feedback. Integrated OpenAI API to simulate realistic, role-specific interview conversations across various industries, creating a dynamic and adaptive practice environment.",
+      tags: ["React Native", "Python", "Express.js", "MongoDB", "REST API", "OpenAI"],
       image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
       github: "https://github.com/thearavindh/Bluepilot-Interview-Copilot",
       live: "https://github.com/thearavindh/Bluepilot-Interview-Copilot"
@@ -44,7 +44,7 @@ const projectsData = [
       tags: ["Python", "FastAPI", "Streamlit", "NLP", "AI", "Gemini API"],
       image: "/images/HR.png",
       github: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini/tree/main",
-      live: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini" // replace with deployed URL when available
+      live: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini" 
     },
 
     {
@@ -65,7 +65,18 @@ const projectsData = [
       image: "/images/todo.png",
       github: "https://github.com/thearavindh/Todo-App",
       live: "https://todo-app-bay-nine-12.vercel.app/"
+    },
+
+    {
+      "id": 7,
+      "title": "Depression Detection",
+      "description": "This project used data from social media networks to explore various methods of early detection of MDDs based on machine learning. We performed a thorough analysis of the dataset to characterize the subjects’ behavior based on different aspects of their PHQ9 question answering, textual inputs, Python code for Depression Detection using multiple machine learning algorithms and Twitter dataset for detecting depression also from sentiments.",
+      "tags": ["Python", "Machine Learning", "NLP", "Data Analysis"],
+      "image": "/images/ml.jpeg",
+      "github": "https://github.com/thearavindh/Depression-Detection-Using-ML.git",
+      "live": "https://github.com/thearavindh/Depression-Detection-Using-ML.git"
     }
+
   ];
 
 export const Projects = () => {
@@ -499,4 +510,5 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
