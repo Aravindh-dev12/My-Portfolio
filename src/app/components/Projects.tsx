@@ -72,7 +72,7 @@ const projectsData = [
       "title": "Depression Detection",
       "description": "This project used data from social media networks to explore various methods of early detection of MDDs based on machine learning. We performed a thorough analysis of the dataset to characterize the subjects’ behavior based on different aspects of their PHQ9 question answering, textual inputs, Python code for Depression Detection using multiple machine learning algorithms and Twitter dataset for detecting depression also from sentiments.",
       "tags": ["Python", "Machine Learning", "NLP", "Data Analysis"],
-      "image": "/images/ml.jpeg",
+      "image": "/images/ml.jpg",
       "github": "https://github.com/thearavindh/Depression-Detection-Using-ML.git",
       "live": "https://github.com/thearavindh/Depression-Detection-Using-ML.git"
     }
@@ -510,5 +510,6 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
 
