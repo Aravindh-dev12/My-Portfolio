@@ -427,7 +427,7 @@ export const About = () => {
                                         WebkitBackgroundClip: 'text',
                                         WebkitTextFillColor: 'transparent',
                                         fontWeight: 700
-                                    }}>Aravindhan B</strong>, a passionate <strong>Software Engineer</strong> As a  App developer, I specialize in building robust, scalable mobile and web applications. My journey combines technical precision with creative vision to deliver exceptional digital experiences across both platforms.
+                                    }}>Aravindhan B</strong>, a passionate <strong>Software Engineer</strong>I specialize in building robust, scalable mobile and web applications. My journey combines technical precision with creative vision to deliver exceptional digital experiences across both platforms.
                                 </motion.span>
                             </Typography>
 
@@ -458,9 +458,7 @@ export const About = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{ delay: 1.4 }}
                                 >
-Specializing in frontend, backend, and database development, I craft end-to-end solutions that are both robust and user-friendly. On the frontend, I build responsive, intuitive interfaces. Behind the scenes, I implement scalable, clean-code backends. For data persistence, I design and optimize schemas that ensure reliability and performance.
-
-Additionally, I have experience developing AI-powered applications, including training custom models and integrating third-party AI services to deliver intelligent features. With a keen eye for detail and a commitment to maintainable code, I transform complex requirements into elegant, delightful applications.
+I focus on frontend, backend, and database development, crafting end-to-end solutions that are responsive, reliable, and user-friendly. I also develop AI-powered applications, from training custom models to integrating third-party AI services, bringing intelligent features into modern solutions.
 </motion.span>
 
                             </Typography>
@@ -581,4 +579,5 @@ Additionally, I have experience developing AI-powered applications, including tr
         </>
     );
 };
+
 
