@@ -35,7 +35,7 @@ const fillShadows = (shadows: string[]): ShadowsTuple => {
 };
 
 export const CustomThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [darkMode, setDarkMode] = useState(true);
+const [darkMode, setDarkMode] = useState(false); // start in light mode
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
@@ -95,3 +95,4 @@ export const CustomThemeProvider = ({ children }: { children: ReactNode }) => {
     </ThemeContext.Provider>
   );
 };
+
