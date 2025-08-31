@@ -197,7 +197,7 @@ export const About = () => {
                                 transition={{ type: 'spring', stiffness: 400 }}
                             >
                                 <Avatar
-                                    src="/images/photo.JPG"  // Updated image path
+                                    src="/images/aravindh.jpg"  // Updated image path
                                     alt="Profile Picture"
                                     sx={{
                                         width: { xs: 250, md: 350 },
@@ -579,5 +579,6 @@ I focus on frontend, backend, and database development, crafting end-to-end solu
         </>
     );
 };
+
 
 
