@@ -16,8 +16,8 @@ const projectsData = [
       "description": "Blu is a fully local, multilingual, multimodal assistant running quantized models via Ollama, capable of text, vision, speech recognition (ASR), and text-to-speech (TTS). It supports RAG over PDFs/TXT, runs on CPU or small GPU, and can be extended with fine-tuned adapters. Ideal for lightweight, private AI applications on limited hardware.",
       "tags": ["Python", "LLM", "Multimodal AI", "Ollama", "NLP", "Vision", "ASR", "TTS"],
       "image": "/images/llm.jpeg",
-      "github": "https://github.com/thearavindh/Blu--Multimodal-llm.git",
-      "live": "https://github.com/thearavindh/Blu--Multimodal-llm.git"
+      "github": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git",
+      "live": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git"
     },
     {
       id: 2,
@@ -25,8 +25,8 @@ const projectsData = [
       description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
       tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
       image: "/images/voice.png", 
-      github: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System", 
-      live: "https://huggingface.co/spaces/the11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
+      github: "https://huggingface.co/spaces/Aravindhan11/Voice-Activated-RAG-System/tree/main", 
+      live: "https://huggingface.co/spaces/Aravindhan11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
     },
      {
       id: 3,
@@ -34,8 +34,8 @@ const projectsData = [
       description: "A web app built with React Native and Python to help users prepare for job interviews through interactive mock sessions and personalized feedback. Integrated OpenAI API to simulate realistic, role-specific interview conversations across various industries, creating a dynamic and adaptive practice environment.",
       tags: ["React Native", "Python", "Express.js", "MongoDB", "REST API", "OpenAI"],
       image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
-      github: "https://github.com/thearavindh/Bluepilot-Interview-Copilot",
-      live: "https://github.com/thearavindh/Bluepilot-Interview-Copilot"
+      github: "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot",
+      live: "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot"
     },    
     {
       id: 4,
@@ -43,8 +43,8 @@ const projectsData = [
       description: "An AI-powered assistant that streamlines hiring: uploads resumes and job descriptions to produce compatibility scores, detects AI-generated content, generates targeted interview questions, analyzes interview transcripts for coverage, and gives detailed per-question candidate response evaluations. Built with FastAPI backend, Streamlit frontend, and Google Gemini for LLM-powered analysis.",
       tags: ["Python", "FastAPI", "Streamlit", "NLP", "AI", "Gemini API"],
       image: "/images/HR.png",
-      github: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini/tree/main",
-      live: "https://huggingface.co/spaces/the11/AI-Agent-for-HR-Gemini" 
+      github: "https://huggingface.co/spaces/Aravindhan11/AI-Agent-for-HR-Gemini/tree/main",
+      live: "https://huggingface.co/spaces/Aravindhan11/AI-Agent-for-HR-Gemini" 
     },
 
     {
@@ -53,28 +53,18 @@ const projectsData = [
       description: "Developed CNN model to detect brain tumor using Kaggle MRI dataset with 4,600 images, Leveraged transfer learning & fine-tuned pre-trained MobileNet, achieving an accuracy of 93.72% on test dataset Used Gradio to deploy the ML model, which can accurately classify MRI images in real-time efficiently",
       tags: [ "CNN" , "numpy" , "Pillow" , "gradio"],
       image: "/images/tumor.png",
-      github: "https://github.com/thearavindh/Brain-Tumor-Deetcion",
-      live: "https://huggingface.co/spaces/the11/Brain_Tumor_Detection"
-    },
-    
-    {
-      id: 6,
-      title: "Task Management App",
-      description: "A full-stack To Do List application featuring a Node.js backend and a TypeScript-based frontend",
-      tags: ["Node.js", "TypeScript", "Express", "HTML", "CSS"],
-      image: "/images/todo.png",
-      github: "https://github.com/thearavindh/Todo-App",
-      live: "https://todo-app-bay-nine-12.vercel.app/"
+      github: "https://huggingface.co/spaces/Aravindhan11/Brain_Tumor_Detection/tree/main",
+      live: "https://huggingface.co/spaces/Aravindhan11/Brain_Tumor_Detection"
     },
 
     {
-      "id": 7,
+      "id": 6,
       "title": "Depression Detection",
       "description": "This project used data from social media networks to explore various methods of early detection of MDDs based on machine learning. We performed a thorough analysis of the dataset to characterize the subjects’ behavior based on different aspects of their PHQ9 question answering, textual inputs, Python code for Depression Detection using multiple machine learning algorithms and Twitter dataset for detecting depression also from sentiments.",
       "tags": ["Python", "Machine Learning", "NLP", "Data Analysis"],
       "image": "/images/ml.jpg",
-      "github": "https://github.com/thearavindh/Depression-Detection-Using-ML.git",
-      "live": "https://github.com/thearavindh/Depression-Detection-Using-ML.git"
+      "github": "https://github.com/Aravindh-dev12/Depression-Detection-Using-ML",
+      "live": "https://github.com/Aravindh-dev12/Depression-Detection-Using-ML"
     }
 
   ];
@@ -510,6 +500,7 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
 
 
