@@ -27,9 +27,8 @@ export const Contact = () => {
 
   // Social media links
   const socialLinks = [
-    { icon: <SiGithub />, url: "https://github.com/thearavindh", color: "#181717", name: "GitHub" },
+    { icon: <SiGithub />, url: "https://github.com/Aravindh-dev12", color: "#181717", name: "GitHub" },
     { icon: <SiLinkedin />, url: "https://www.linkedin.com/in/aravindhanb/", color: "#0077B5", name: "LinkedIn" },
-    { icon: <SiDiscord />, url: "https://discord.com/channels/@me", color: "#5865F2", name: "Discord" },
     { icon: <SiCodepen />, url: "https://codepen.io/Aravindhan-B", color: "#000000", name: "CodePen" },
   ];
 
