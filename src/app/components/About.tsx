@@ -369,7 +369,7 @@ export const About = () => {
                                     }
                                 }}
                             >
-                                {"With MERN Stack Magic".split('').map((letter, i) => (
+                                {"With Full Stack Magic".split('').map((letter, i) => (
                                     <motion.span
                                         key={i}
                                         initial={{ y: 30, opacity: 0 }}
@@ -579,6 +579,7 @@ I focus on frontend, backend, and database development, crafting end-to-end solu
         </>
     );
 };
+
 
 
 
