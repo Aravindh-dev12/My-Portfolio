@@ -19,17 +19,8 @@ const projectsData = [
       "github": "https://github.com/perspectivLabs/WaterMeter_App",
       "live": "https://watermeter.dev.perspectiv.in/"
     },
-    {
+ {
       "id": 2,
-      "title": "Blu — Local 7B Multilingual Multimodal Assistant",
-      "description": "Blu is a fully local, multilingual, multimodal assistant running quantized models via Ollama, capable of text, vision, speech recognition (ASR), and text-to-speech (TTS). It supports RAG over PDFs/TXT, runs on CPU or small GPU, and can be extended with fine-tuned adapters. Ideal for lightweight, private AI applications on limited hardware.",
-      "tags": ["Python", "LLM", "Multimodal AI", "Ollama", "NLP", "Vision", "ASR", "TTS"],
-      "image": "/images/llm.jpeg",
-      "github": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git",
-      "live": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git"
-    },
-     {
-      "id": 3,
       "title": "Interview Assistant AI | React, Node.js, OpenAI API, Web Speech API, Tailwind CSS",
       "description": "• Developed a real-time interview assistant that listens to questions and provides AI-powered responses with voice synthesis.\n• Enabled users to practice interviews interactively with immediate feedback and natural language understanding.\n• Built a scalable backend with Node.js to handle requests efficiently and integrated the OpenAI API for intelligent responses.",
       "tags": ["React", "Node.js", "OpenAI API", "Web Speech API", "Tailwind CSS", "AI Assistant", "Voice Interaction"],
@@ -37,8 +28,27 @@ const projectsData = [
       "github": "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot.git",
       "live": "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot.git"
     },
+
     {
-      id: 4,
+      "id": 3,
+      "title": "Blu — Local 7B Multilingual Multimodal Assistant",
+      "description": "Blu is a fully local, multilingual, multimodal assistant running quantized models via Ollama, capable of text, vision, speech recognition (ASR), and text-to-speech (TTS). It supports RAG over PDFs/TXT, runs on CPU or small GPU, and can be extended with fine-tuned adapters. Ideal for lightweight, private AI applications on limited hardware.",
+      "tags": ["Python", "LLM", "Multimodal AI", "Ollama", "NLP", "Vision", "ASR", "TTS"],
+      "image": "/images/llm.jpeg",
+      "github": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git",
+      "live": "https://github.com/Aravindh-dev12/Blu--Multimodal-llm.git"
+    },
+{
+  "id": 4,
+  "title": "AI Dual Brain Project | Python, FastAPI, CI/CD, AI Fusion Layer",
+  "description": "• Built a production-ready MVP for a Dual-Brain AI architecture combining a Main Brain and multiple Specialist Brains.\n• Implemented structured configurations, automated tests, and an intelligent fusion layer to coordinate decision-making.\n• Designed with scalability and CI/CD pipelines for smooth deployment and iteration.",
+  "tags": ["Python", "FastAPI", "CI/CD", "AI Fusion Layer", "MLOps", "Intelligent Systems"],
+  "image": "/images/dualbrain.png",
+  "github": "https://github.com/Aravindh-dev12/AI-dual-Brain-Model.git",
+  "live": "https://github.com/Aravindh-dev12/AI-dual-Brain-Model.git"
+},
+    {
+      id: 5,
       title: "Voice Enabled Chat with PDFs",
       description: "Developed a LangChain-based chatbot that answers user queries through audio input using OpenAI's Whisper. Implemented a RAG pipeline with PDF chunking, embedding generation, and FAISS vector database for retrieval. Used LLaMA Scout LLM and Gemini TTS for human-like audio responses. Deployed via Hugging Face Spaces.",
       tags: ["Python", "LangChain", "OpenAI", "Whisper", "FAISS", "Gemini TTS", "LLaMA", "Hugging Face"],
@@ -47,7 +57,7 @@ const projectsData = [
       live: "https://huggingface.co/spaces/Aravindhan11/Voice-Activated-RAG-System" // Add Hugging Face Spaces URL here if deployed
     },
     {
-      id: 5,
+      id: 6,
       title: "AI Recruiter — Resume & Interview Analyzer",
       description: "An AI-powered assistant that streamlines hiring: uploads resumes and job descriptions to produce compatibility scores, detects AI-generated content, generates targeted interview questions, analyzes interview transcripts for coverage, and gives detailed per-question candidate response evaluations. Built with FastAPI backend, Streamlit frontend, and Google Gemini for LLM-powered analysis.",
       tags: ["Python", "FastAPI", "Streamlit", "NLP", "AI", "Gemini API"],
@@ -57,7 +67,7 @@ const projectsData = [
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Brain Tumor Detection",
       description: "Developed CNN model to detect brain tumor using Kaggle MRI dataset with 4,600 images, Leveraged transfer learning & fine-tuned pre-trained MobileNet, achieving an accuracy of 93.72% on test dataset Used Gradio to deploy the ML model, which can accurately classify MRI images in real-time efficiently",
       tags: [ "CNN" , "numpy" , "Pillow" , "gradio"],
@@ -67,7 +77,7 @@ const projectsData = [
     },
 
     {
-      "id": 7,
+      "id": 8,
       "title": "Depression Detection",
       "description": "This project used data from social media networks to explore various methods of early detection of MDDs based on machine learning. We performed a thorough analysis of the dataset to characterize the subjects’ behavior based on different aspects of their PHQ9 question answering, textual inputs, Python code for Depression Detection using multiple machine learning algorithms and Twitter dataset for detecting depression also from sentiments.",
       "tags": ["Python", "Machine Learning", "NLP", "Data Analysis"],
@@ -509,6 +519,7 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
 
 
