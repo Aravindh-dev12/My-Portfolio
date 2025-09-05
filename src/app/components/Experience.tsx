@@ -23,18 +23,8 @@ export const Experience = () => {
 
   const experienceData = [
 
- {
-      id: 1,
-      role: "AI Developer",
-      company: "Freelancer",
-      description: "I design, develop, and deploy artificial intelligence and machine learning solutions tailored to client needs. My work involves building models for data analysis, natural language processing, computer vision, and predictive analytics using frameworks such as TensorFlow, PyTorch, and Scikit-learn. I collaborate closely with clients to understand project goals, create scalable AI pipelines, and deliver actionable insights that drive business decisions.",
-      icon: <SiGoogle size={24} />, // You can replace this with a more relevant icon, e.g., <SiOpenai /> or a custom one
-      color: "#7FBA00",
-      skills: ["Artificial intelligence", "Python", "NLP", "Machine Learning"],
-      type: "Freelance"
-    },
     {
-      id: 2,
+      id: 1,
       role: "Software Development Engineer",
       company: "Perspectiv Labs",
       period: "2024 July - Present",
@@ -45,7 +35,7 @@ export const Experience = () => {
       type: "Full-time"
     },
     {
-      id: 3,
+      id: 2,
       role: "Full Stack Developer",
       company: "Softapper Technologies",
       period: "2024 Feb - 2024 May",
@@ -437,4 +427,5 @@ export const Experience = () => {
     </Box>
   );
 };
+
 
