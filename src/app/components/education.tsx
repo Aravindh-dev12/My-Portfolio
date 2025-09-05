@@ -22,15 +22,17 @@ export const Education = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.95]);
 
   const educationData = [
-    {
-      id: 1,
-      degree: "Bachelor of Computer Science",
-      institution: "Chettinad College Of Engineering And Technology",
-      year: "2020 - 2024",
-      description: "Specialized in Computer Science Engineering with a strong foundation in software development, algorithms, and systems design. Completed final year project on scalable cloud-based application architecture",
-      icon: <FaUniversity size={24} />,
-      color: "#B7094C"
-        },
+  {
+  id: 1,
+  degree: "Bachelor of Computer Science",
+  institution: "Chettinad College Of Engineering And Technology",
+  university: "Anna University",
+  year: "2020 - 2024",
+  description:
+    "Specialized in Computer Science Engineering with a strong foundation in software development, algorithms, and systems design. Completed final year project on scalable cloud-based application architecture.",
+  icon: <FaUniversity size={24} />,
+  color: "#B7094C"
+},
   
     {
       id: 2,
@@ -340,4 +342,5 @@ export const Education = () => {
       </Box>
     </Box>
   );
+
 };
