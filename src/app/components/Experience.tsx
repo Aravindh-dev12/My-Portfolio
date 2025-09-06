@@ -22,7 +22,7 @@ export const Experience = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.98]);
 
   const experienceData = [
-
+   
     {
       id: 1,
       role: "Software Development Engineer",
@@ -33,6 +33,16 @@ export const Experience = () => {
       color: "#4285F4",
       skills: ["Mobile App Development", "Full Stack Development", "Jest", "REST API"],
       type: "Full-time"
+    },
+     {
+      id: 1,
+      role: "AI Developer",
+      company: "Freelancer",
+      description: "I design, develop, and deploy artificial intelligence and machine learning solutions tailored to client needs. My work involves building models for data analysis, natural language processing, computer vision, and predictive analytics using frameworks such as TensorFlow, PyTorch, and Scikit-learn. I collaborate closely with clients to understand project goals, create scalable AI pipelines, and deliver actionable insights that drive business decisions.",
+      icon: <SiGoogle size={24} />, 
+      color: "#7FBA00",
+      skills: ["Artificial intelligence", "Python", "NLP", "Machine Learning"],
+      type: "Freelance"
     },
     {
       id: 2,
@@ -427,5 +437,6 @@ export const Experience = () => {
     </Box>
   );
 };
+
 
 
