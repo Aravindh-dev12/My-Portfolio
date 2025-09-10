@@ -12,7 +12,7 @@ const projectsData = [
 
     {
       "id": 1,
-      "title": "WaterMeter App | React Native, TypeScript, TailwindCSS, PostgreSQL, AWS",
+      "title": "WaterMeter App",
       "description": "• Developed a cross-platform mobile app using React Native & EXPO to enable users to monitor real-time water consumption.\n• Designed an intuitive user interface for tracking usage patterns, viewing detailed analytics, and receiving leak detection alerts.\n• Built a secure and scalable backend with Node.js and PostgreSQL, enabling real-time data synchronization, trend analysis, and push notifications across devices.",
       "tags": ["React Native", "TypeScript", "TailwindCSS", "PostgreSQL", "AWS", "Node.js", "Mobile App", "Real-time Analytics"],
       "image": "/images/watermeter.png",
@@ -21,7 +21,7 @@ const projectsData = [
     },
  {
       "id": 2,
-      "title": "Interview Assistant AI | React, Node.js, OpenAI API, Web Speech API, Tailwind CSS",
+      "title": "Interview Assistant AI",
       "description": "• Developed a real-time interview assistant that listens to questions and provides AI-powered responses with voice synthesis.\n• Enabled users to practice interviews interactively with immediate feedback and natural language understanding.\n• Built a scalable backend with Node.js to handle requests efficiently and integrated the OpenAI API for intelligent responses.",
       "tags": ["React", "Node.js", "OpenAI API", "Web Speech API", "Tailwind CSS", "AI Assistant", "Voice Interaction"],
       "image": "/images/aicopilot.png",
@@ -40,7 +40,7 @@ const projectsData = [
     },
 {
   "id": 4,
-  "title": "AI Dual Brain Project | Python, FastAPI, CI/CD, AI Fusion Layer",
+  "title": "AI Dual Brain Project",
   "description": "• Built a production-ready MVP for a Dual-Brain AI architecture combining a Main Brain and multiple Specialist Brains.\n• Implemented structured configurations, automated tests, and an intelligent fusion layer to coordinate decision-making.\n• Designed with scalability and CI/CD pipelines for smooth deployment and iteration.",
   "tags": ["Python", "FastAPI", "CI/CD", "AI Fusion Layer", "MLOps", "Intelligent Systems"],
   "image": "/images/dualbrain.png",
@@ -519,6 +519,7 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
 
 
