@@ -16,7 +16,7 @@ const projectsData = [
       "tags": ["React", "Node.js", "OpenAI API", "Web Speech API", "Tailwind CSS", "AI Assistant", "Voice Interaction"],
       "image": "/images/aicopilot.png",
       "github": "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot.git",
-      "live": "https://github.com/Aravindh-dev12/Bluepilot-Interview-Copilot.git"
+      "live": "https://bluepilot-interview-copilot-1.onrender.com/"
     },
 
     {
@@ -509,6 +509,7 @@ export const Projects = () => {
     </Box>
   );
 };
+
 
 
 
